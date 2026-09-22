@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ev2_1_if"/>
+        <attribute name="authors" value="bisonte"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-09-21 06:32:38 p. m."/>
+        <attribute name="created" value="Ymlzb250ZTtERVNLVE9QLVRPN01LSEU7MjAyNi0wOS0yMTswNjoxMTo0MSBwLiBtLjszMzE3"/>
+        <attribute name="edited" value="Ymlzb250ZTtERVNLVE9QLVRPN01LSEU7MjAyNi0wOS0yMTswNjozMjozOCBwLiBtLjsyOzM0MzU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Edad" type="Integer" array="False" size=""/>
+            <output expression="&quot;Cual es tu edad?: &quot;" newline="True"/>
+            <input variable="Edad"/>
+            <if expression="Edad &gt;= 18">
+                <then>
+                    <output expression="&quot;Eres mayor de edad, puedes entrar&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;No puedes entrar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
